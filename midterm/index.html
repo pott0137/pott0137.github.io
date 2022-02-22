@@ -5,8 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lone Starfish</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <div class="wrapper">
+        <header>
+            <h1>Lone Starfish</h1>
+        </header>
+        <main>
+            <h3>Contact to learn more</h3>
+            <form>
+                <div>
+                    <label for="fullname">Your Name</label><br>
+                    <input type="text" id="fullname" name="fullname" class="form">
+                
+                <div>
+                    <label for="email">Your Email</label><br>
+                    <input type="text" id="email" name="email" class="form">
+                </div>
+                <div>
+                    <label for="message">Your Message</label><br>
+                    <textarea name="message" id="message" class="form"></textarea>
+                </div>                
+                <label for="question">Would you like to visit the starfish?</label><br>
+                <label for="yes">Yes</label>                
+                <input type="radio" id="question" name="question">
+                <label for="no">No</label>
+                <input type="radio" id="question" name="question">
+                <label for="maybe">Maybe</label>
+                <input type="radio" id="question" name="question">
+                <div>
+                    <button type="submit">Send</button> 
+                </div>                               
+            </form>
+        </main>
+        <footer>
+            <p>&copy; Lone Starfish.</p>
+        </footer>
+    </div>
     
 </body>
 </html>
