@@ -93,30 +93,24 @@ input {
     font-size: 2.5rem;
     font-weight: bold;
 }
-/* sets the size of all the images */
+/* sets the size and spacing of all the images */
 img {
     padding-top: 10px;
     width: 100%;
     height: auto;
 }
-.digital {
+/* set the spacing and background for all information in the services page */
+.digital, .marketing, .video, .web, .print {
     background-color: #ffe6ac;
     padding: 10px;
 }
-.digital h2{
+/* sets all the headers in the services page the same */
+.digital h2, .marketing h2, .video h2, .web h2, .print h2{
     font-size: 1.5rem;
     font-weight: bold;
     padding: 10px;
 }
-.marketing {
-    background-color: #ffe6ac;
-    padding: 10px;
-}
-.marketing h2 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding: 10px;
-}
+/* makes all buttons the same thickness and colour */
 .button {
     background-color: #222;
     color: white;
