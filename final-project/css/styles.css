@@ -4,6 +4,7 @@
 .wrapper {
     font-size: 1.5rem;
     max-width: 1200px;
+    font-family: 'Open Sans', sans-serif;
 }
 .box {
     background-image: url("../images/logo.png");
@@ -69,7 +70,24 @@ input {
     border: none;
     text-decoration: none;
     display: inline-block;
-    padding: 15px 32px; 
+    padding: 30px 32px; 
     margin: 4px 2px;
     cursor: pointer;
+}
+.containeraboutus {
+    background-color: #ffe6ac;
+}
+.pooltable img{
+    max-width: 100%;
+    height: auto;
+    padding: 15px 15px;
+}
+.about h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+.about, p {
+    font-size: 1rem;
+    padding: 10px;
 }
