@@ -142,7 +142,8 @@ img {
     background-color: #ffe6ac;
 }
 .team h2, h4 {
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .team h1 {
     font-size: 2rem;
