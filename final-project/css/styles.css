@@ -110,6 +110,34 @@ img {
     font-weight: bold;
     padding: 10px;
 }
+.visionimg {
+    margin-top: 20px;
+    background-image: url(../images/vision.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.vision h2 {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+}
+.vision {
+    margin-left: 10px;
+    color: white;
+}
+.learn {
+    background-color: #222;
+    color: white;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 25px 30px;
+    margin-bottom: 10px;
+    opacity: .8;
+    border: #c78c06 solid; 
+    cursor: pointer
+}
 /* makes all buttons the same thickness and colour */
 .button {
     background-color: #222;
