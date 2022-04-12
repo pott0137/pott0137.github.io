@@ -5,6 +5,7 @@
     font-size: 1rem;
     max-width: 1200px;
     font-family: 'Open Sans', sans-serif;
+    padding: 10px;
 }
 .box {
     background-image: url("../images/logo.png");
@@ -47,7 +48,7 @@ input {
 .welcome h1 {
     font-size: 3.5rem;
     font-weight: bold;
-    padding-bottom: 15px;
+    padding: 15px;
 }
 .home {
     position: relative;
@@ -69,7 +70,6 @@ input {
     text-decoration: none;
     display: inline-block;
     padding: 30px 32px; 
-    margin: 4px 2px;
     cursor: pointer;
 }
 .containeraboutus {
@@ -87,4 +87,42 @@ input {
 }
 .about, p {
     padding: 10px;
+}
+.services h1 {
+    padding: 30px 0px 15px 0px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+/* sets the size of all the images */
+img {
+    padding-top: 10px;
+    width: 100%;
+    height: auto;
+}
+.digital {
+    background-color: #ffe6ac;
+    padding: 10px;
+}
+.digital h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+}
+.marketing {
+    background-color: #ffe6ac;
+    padding: 10px;
+}
+.marketing h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+}
+.button {
+    background-color: #222;
+    color: white;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 25px 30px; 
+    cursor: pointer
 }
