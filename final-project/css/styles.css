@@ -171,3 +171,57 @@ img {
     padding: 25px 30px; 
     cursor: pointer
 }
+.contact h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.contact h2 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+.contact form {
+    font-size: 12px;
+}
+.name, .email, .message {
+    padding-bottom: 10px;
+}
+.send {
+    padding-bottom: 3px;
+    background-color: #222;
+    color: #c78c06;
+    border: none;
+}
+.table h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.table table {
+    width: 100%;
+    font-size: 12px;
+}
+.table th, td {
+    border-style: solid;
+    border-width: thin;
+    padding: 15px;
+}
+.table .top {
+    text-align: center;
+    background-color: #ffe6ac;
+}
+.location h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+footer {
+    padding-top: 5px;
+    font-size: 12px;
+    background-color: #222;
+    color: #c78c06;
+}
