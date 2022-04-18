@@ -257,32 +257,88 @@ footer {
         color: white;
         background-color: rgba(34, 34, 34, .8);
     }
-    .services h1 {
+    .containeraboutus {
+        display: grid;
+        grid-template-columns: 1fr 1fr auto;
+        grid-template-rows: 1fr;
+    }
+    .about {
+        grid-column: 3/2;
+        font-size: 12px;
+    }
+    .pooltable {
         padding-left: 20px;
+    }
+    .services {
+        font-size: 12px;
+    }
+    .services h1 {
+        padding-left: 50px;
     }
     .grid{
         padding-left: 50px;
         padding-right: 50px;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: 1fr 1fr auto;
         grid-column-gap: 10px;
-        grid-template-rows: 1fr; 
-        grid-template-areas:
-        "digital digital marketing marketing"       
+        grid-template-rows: repeat(2, 1fr); 
+        /* grid-template-areas:
+        "digital digital marketing marketing"        */
     }
     .containdigital {
-       grid-area: digital;
+        grid-column: 1 /span 2;
+        grid-row: 1;
+       /* grid-area: digital; */
     }
     .containmarketing {
-        grid-area: marketing;
+        grid-column: 3 /span 4;
+        grid-row: 1;
+        /* grid-area: marketing; */
+    }
+    .containvideo {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .team {
+        padding-right: 80px;
+        padding-left: 80px;
     }
     .containteam {
         display: grid;
+
+    }
+    .jimg {
+        padding-top: 0;
     }
     .bobimg {
         padding: 0;
         grid-column: 2;
         grid-row: 2;
     }
-    
+    .contact h1 {
+        padding-left: 80px;
+    }
+    .gridcontain {
+        display: grid;
+        padding-right: 80px;
+        padding-left: 80px;
+        grid-template-columns: 1fr 1fr auto;
+        grid-template-rows: repeat(2, 1fr);       
+    }
+    .form {
+        grid-column: 1/3;
+        grid-row: 1;
+    }
+    .table {
+        grid-column: 1 /span 4;
+        grid-row: 2;
+    }
+    .location {
+        padding-left: 10px;
+        grid-column: 2 /span 4 ;
+        grid-row: 1;
+    }
+    .location h1 {
+        padding-top: 0;
+    }
 }
