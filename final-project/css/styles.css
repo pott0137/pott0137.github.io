@@ -1,12 +1,14 @@
 *{
     box-sizing: border-box;
 }
+/* sets the font amd max width of the whole document */
 .wrapper {
     font-size: 1rem;
     max-width: 1200px;
     font-family: 'Open Sans', sans-serif;
     padding: 10px;
 }
+/* make a background box around an image */
 .box {
     background-image: url("../images/logo.png");
     background-repeat: no-repeat;
@@ -14,13 +16,17 @@
     width: 100%;
     height: 100px;
 }
+/* algins the top navagation */
 .topnav { 
     background-color: #222;
     text-align: center;
 }
+/* increases the searchbars thickness */
 .topnav input {
     width: 90%;
+    height: 2rem;
 }
+/* stlyes the navations links */
 .topnav li, a {
     color: #c78c06;
     list-style: none;
@@ -28,31 +34,31 @@
     padding: 12px;
 
 }
-input {
-    width: 25rem;
-    height: 2rem;
-}
+/* increases the size of the font image next to the searchbar and adds a border */
 .fa-magnifying-glass {
     color: #c78c06;
-    height: 33px;
     border: solid 1.5px;
     font-size: 1.5rem;
 
 }
+/* a container to keep everything styled on the welcome page */
 .containerhome {
     width: 100%;
     height: 500px;
     background-image: url("../images/main-banner.jpg");
     background-size: cover;
 }
+/* makes all information centered on the welcome page */
 .welcome{
     height: 100%;
 }
+/* styles the welcome page header */
 .welcome h1 {
     font-size: 3.5rem;
     font-weight: 1000;
     padding: 15px;
 }
+/* adds a black background to the text and changes the opacity */
 .home {
     position: relative;
     top: 50%;
@@ -62,10 +68,12 @@ input {
     color: white;
     background-color: rgba(34, 34, 34, .8);
 }
+/* changes the font and the margin of the paragragh on the welcome page */
 .welcome p {
     margin-bottom: 20px;
     font-size: 1rem;
 }
+/* styles the button on the welcome page */
 .welcome button {
     background-color: #c78c06;
     font-size: 1.5rem;
@@ -75,28 +83,38 @@ input {
     padding: 30px 32px; 
     cursor: pointer;
 }
+/* puts a background colour all around the about us section */
 .containeraboutus {
     background-color: #ffe6ac;
 }
+/* styles the pooltable image */
 .pooltable img{
     max-width: 100%;
     height: auto;
     padding: 15px 15px;
 }
+/* styles the about us header */
 .about h2 {
     font-size: 3rem;
     font-weight: bold;
     padding: 10px 10px;
 }
+/* adds padding to the header and paragragh in the about us section */
 .about, p {
     padding: 10px;
 }
+/* styles our services header */
 .services h1 {
     padding: 30px 0px 15px 0px;
     font-size: 2rem;
     font-weight: 900;
 }
-/* sets the size and spacing of all the images */
+/* adds a padding righrt and left to the whole services section */
+.services {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* sets the size and spacing of all the images in the our services section*/
 img {
     padding-top: 10px;
     width: 100%;
@@ -113,25 +131,28 @@ img {
     font-weight: 1000;
     padding: 10px;
 }
+/* adds a backgorund image and a margin to the our visions section */
 .visionimg {
     margin-top: 20px;
     background-image: url(../images/vision.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+/* styles the header in our visions */
 .vision h2 {
     padding-top: 20px;
     font-weight: 1000;
     font-size: 1.5rem;
     color: white;
 }
+/* adds a margin and white colour to the our vision text */
 .vision {
     margin-left: 10px;
     color: white;
 }
+/* styles the learn more button by adding a background colour, border and changing the opacity */
 .learn {
     background-color: #222;
-    color: white;
     border: none;
     text-decoration: none;
     display: inline-block;
@@ -141,19 +162,23 @@ img {
     border: #c78c06 solid; 
     cursor: pointer
 }
+/* adds background colour to the text in the our team section */
 .teamcolor {
     background-color: #ffe6ac;
 }
+/* adds a margin to each header in the our team section */
 .team h2, h4 {
     margin-left: 10px;
     margin-right: 10px;
 }
+/* stlyes header 1 to change font size and to position it */
 .team h1 {
     font-size: 2rem;
     font-weight: 900;
     padding-top: 30px;
     padding-bottom: 10px;
 }
+/* stlyes header 2 to cahnge font size and thick boldness */
 .team h2 {
     padding-top: 20px;
     font-size: 1.5rem;
@@ -161,7 +186,7 @@ img {
 }
 .team h4 {
     padding-top: 5px;
-    font-weight: 1000;
+    font-weight: 900;
     border-bottom: #c78c06 solid;
 }
 /* makes all buttons the same thickness and colour */
@@ -235,6 +260,7 @@ footer {
     background-color: #222;
     color: #c78c06;
 }
+/* changes the whole document when 760px and above */
 @media screen and (min-width: 760px) {
     .topnav {
         padding: 20px;
@@ -242,7 +268,7 @@ footer {
     }
     .topnav ul{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
     .box {
         background-color: transparent;
@@ -282,18 +308,14 @@ footer {
         grid-template-columns: 1fr 1fr auto;
         grid-column-gap: 10px;
         grid-template-rows: repeat(2, 1fr); 
-        /* grid-template-areas:
-        "digital digital marketing marketing"        */
     }
     .containdigital {
         grid-column: 1 /span 2;
         grid-row: 1;
-       /* grid-area: digital; */
     }
     .containmarketing {
         grid-column: 3 /span 4;
         grid-row: 1;
-        /* grid-area: marketing; */
     }
     .containvideo {
         grid-column: 1;
